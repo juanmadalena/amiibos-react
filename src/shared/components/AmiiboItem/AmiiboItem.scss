@@ -1,0 +1,34 @@
+.c-amiibo-item {
+  &__item-container {
+
+    &:hover {
+      .c-amiibo-item__img {
+
+        transform: scale(1.07);
+
+      }
+    }
+
+
+  }
+
+  &__item {
+    margin: 4rem auto;
+    text-align: center;
+  }
+
+  &__img {
+    transition: transform .5s ease-in-out;
+    height: 50rem;
+
+    max-height: 100%;
+  }
+
+  &__caption {
+    font-size: 5rem;
+    margin-top: 1rem;
+    font-family: "Arial";
+    padding: 2rem;
+  }
+
+}

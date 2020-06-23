@@ -1,0 +1,28 @@
+.amiiboSearch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.amiiboSearch-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__item{
+        margin: 10px;
+    }
+
+    &__text{
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    &__input{
+        width: 200px;
+        height: 25px;
+        border: solid 2px rgba(400, 400, 400, 0.3);
+        color: white;
+    }
+}

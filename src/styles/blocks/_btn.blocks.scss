@@ -1,0 +1,9 @@
+@import "../imports/local/settings-tools.imports";
+
+.b-btn {
+  width: 100%;
+  padding: 2rem;
+  cursor: pointer;
+  border: 2px solid $color-white;
+  color: $color-white;
+}
